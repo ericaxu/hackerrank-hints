@@ -63,7 +63,7 @@ Additionally, it is often fruitful to trade a bit of storage for execution effic
 
 Consider the sequence starting at the end, of length 1. Any sequence of length 1 meets all the criteria for a longest sequence. Notate the `bestsofar` array as `1` for this case.
 
-Consider the last two elements of the sequence. If the penultimate number is larger than the last one, then the `bestsofar1 is `2` (which is `1 + bestsofar` for the last number). Otherwise, it's `1`.
+Consider the last two elements of the sequence. If the penultimate number is larger than the last one, then the `bestsofar` is `2` (which is `1 + bestsofar` for the last number). Otherwise, it's `1`.
 
 Consider any element prior to the last two. Any time it's larger than an element closer to the end, its `bestsofar` element becomes at least one larger than that of the smaller element that was found. Upon termination, the largest of the `bestsofar`s is the length of the longest descending subsequence.
 
@@ -122,7 +122,7 @@ A different set of values might best be stored in the auxiliary array. Implement
 ```10 8 9 4 6 3```
 
 Scanning from right to left (backward to front), the `bestrun` array has but a single element after encountering the 3: 
-```0:3````
+```0:3```
 
 Continuing the scan, the `6` is larger than the `3`, to the `bestrun` array grows: 
 ```
