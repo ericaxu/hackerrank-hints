@@ -118,11 +118,9 @@ The algorithm still runs too slow (for competitions) at N = 9000.
 
 That inner loop (search for any smaller number) begs to have some storage traded for it.
 
-A different set of values might best be stored in the auxiliary array. Implement an array `bestrun` whose index is the length of a long subsequence and whose value is the first (and, as it turns out, `best`) integer that heads that subsequence. Encountering an integer larger than one of the values in this array means that a new, longer sequence can potentially be created. The new integer might be a new "best head of sequence", or it might not. Consider this sequence: 
-```10 8 9 4 6 3```
+A different set of values might best be stored in the auxiliary array. Implement an array `bestrun` whose index is the length of a long subsequence and whose value is the first (and, as it turns out, `best`) integer that heads that subsequence. Encountering an integer larger than one of the values in this array means that a new, longer sequence can potentially be created. The new integer might be a new "best head of sequence", or it might not. Consider this sequence: `10 8 9 4 6 3`.
 
-Scanning from right to left (backward to front), the `bestrun` array has but a single element after encountering the 3: 
-```0:3```
+Scanning from right to left (backward to front), the `bestrun` array has but a single element after encountering the 3: `0:3`
 
 Continuing the scan, the `6` is larger than the `3`, to the `bestrun` array grows: 
 ```
