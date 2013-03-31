@@ -1,4 +1,7 @@
-# Intro to DP with example
+## List of DP learning resources
+[TopCoder DP tutorial](http://www.topcoder.com/tc?d1=tutorials&d2=dynProg&module=Static): from beginner level to advanced with examples
+
+## Intro to DP with example
 (Excerpt from the [USACO training program](http://ace.delos.com/usacogate) text)
 
 Dynamic programming is a confusing name for a programming technique that dramatically reduces the runtime of algorithms: from exponential to polynomial. The basic idea is to try to avoid solving the same problem or subproblem twice. 
