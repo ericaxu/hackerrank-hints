@@ -1,5 +1,7 @@
 ## List of DP learning resources
 [TopCoder DP tutorial](http://www.topcoder.com/tc?d1=tutorials&d2=dynProg&module=Static): from beginner level to advanced with examples
+[DP algorithms and techniques](http://www.personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Dynamic/dynamicIntro.htm): a very easy-to-understand explanation from Dr. Muhamma from Kent State University
+
 
 ## Intro to DP with example
 (Excerpt from the [USACO training program](http://ace.delos.com/usacogate) text)
